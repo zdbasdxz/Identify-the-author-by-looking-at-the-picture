@@ -238,7 +238,7 @@ function uploadFile(inputid,type){
 						document.getElementById("work").innerText=	"代表作: "+work;
 						document.getElementById("pro").innerText=	"职业::   "+pro;
 						$('#wiki').attr('href',wiki);
-						document.getElementById("wiki").innerText=	"百科地址:";
+						document.getElementById("wiki").innerText=	"了解详情点击这里";
 						$('#imgurl').attr('src',imgurl);
 						$(".detail").show();
 						
